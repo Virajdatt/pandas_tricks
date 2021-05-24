@@ -9,4 +9,4 @@
     
     a. pd.Dataframe --> color using *df.style.background_gradient(cmap="Blues")*; </br>
                         Coloring is column-based
-    b. You can set any colormap supported in matplotlib. </br>
+    b. You can set any colormap supported in [matplotlib](https://matplotlib.org/stable/tutorials/colors/colormaps.html). </br>
