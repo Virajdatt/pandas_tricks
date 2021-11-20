@@ -41,3 +41,8 @@ df2 = pd.DataFrame({'num': [2, 3.4, 2.2, 1.9, 7.8]})
 
 print(df2[df2['num'].between(2,3)])
 
+#### 4 Split Data into train and test
+
+train_dataset = dataset.sample(frac=0.8, random_state=0)
+test_dataset = dataset.drop(train_dataset.index)
+
