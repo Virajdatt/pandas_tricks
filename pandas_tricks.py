@@ -46,3 +46,10 @@ print(df2[df2['num'].between(2,3)])
 train_dataset = dataset.sample(frac=0.8, random_state=0)
 test_dataset = dataset.drop(train_dataset.index)
 
+### 5 checkout the not null values only 
+df3 = pd.DataFrame({'num': [2, ,None, 3.4, 2.2, 1.9, 7.8, None]})
+df3[ df3['num'].notna() ] 
+df3.dropna(subset=['num'])
+
+
+
