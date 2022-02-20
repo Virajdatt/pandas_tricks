@@ -1,7 +1,6 @@
 '''
 Here are the code snippets for the article written on medium named "Pandas, tips to deal with huge dataset!!"
-
-
+The link to the article: https://kvirajdatt.medium.com/pandas-tips-to-deal-with-huge-datasets-f6a012d4e953 
 '''
 ## Tip 1 Pandas read only first few rows
 
